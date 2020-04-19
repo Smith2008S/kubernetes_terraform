@@ -7,7 +7,7 @@ variable "hardware" {
 }
 
 variable "datacenter" {
-  default = "dal13"
+  default = "wdc07"
 }
 
 variable "default_pool_size" {
