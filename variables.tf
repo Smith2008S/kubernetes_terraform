@@ -1,17 +1,17 @@
 variable "ibmcloud_api_key" {}
 variable "machine_type" {
-   default = "b2c.8x32"
+   default = "b3c.4x16"
 }
 variable "hardware" {
    default = "shared"
 }
 
 variable "datacenter" {
-  default = "wdc07"
+  default = "dal13"
 }
 
 variable "default_pool_size" {
-  default = "3"
+  default = "1"
 }
 
 variable "private_vlan_id" {}
