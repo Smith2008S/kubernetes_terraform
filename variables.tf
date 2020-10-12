@@ -1,6 +1,6 @@
 variable "ibmcloud_api_key" {}
 variable "machine_type" {
-   default = "b3c.4x16"
+   default = "u3c.2x4"
 }
 variable "hardware" {
    default = "shared"
@@ -14,9 +14,9 @@ variable "default_pool_size" {
   default = "1"
 }
 
-variable "private_vlan_id" {}
+#variable "private_vlan_id" {}
 
-variable "public_vlan_id" {}
+#variable "public_vlan_id" {}
 
 variable "cluster_name" {
   default = "cluster"
