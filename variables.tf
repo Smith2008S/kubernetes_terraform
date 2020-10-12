@@ -14,9 +14,9 @@ variable "default_pool_size" {
   default = "1"
 }
 
-#variable "private_vlan_id" {}
+variable "private_vlan_id" {}
 
-#variable "public_vlan_id" {}
+variable "public_vlan_id" {}
 
 variable "cluster_name" {
   default = "cluster"
